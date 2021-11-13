@@ -1,7 +1,7 @@
 
 # README Generator
 
-[Github license](http://img.shields.io/badge/license-MIT-blue.svg)
+![Github MIT license](https://img.shields.io/badge/license-MIT-darkred)
 
 ## Description
 Developers who want professional grade README's but either don't have the time or know how to create them can now generate a readme for their project by answering a few prompts using node js.
