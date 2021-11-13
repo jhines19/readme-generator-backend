@@ -15,10 +15,13 @@ const generateMarkdown = (answers) =>
 `
 # ${answers.projectTitle}
 
-## ${answers.projectDescription}
+[!Github license](http://img.shields.io/badge/license-${answers.license}-blue.svg)
+
+## Description
+${answers.projectDescription}
 
 
-## Table of Contents (Optional)
+## Table of Contents
 If your README is long, add a table of contents to make it easy for users to find what they need.
 - [Installation](#installation)
 - [Usage](#usage)
@@ -26,27 +29,26 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [License](#license)
 
 ## Installation
-
+${answers.installation}
 
 ## Usage
+${answers.usage}
 
 
 ## Credits
-
+Project contributors: ${answers.credits}
 
 ## License
-
+${answers.license}
 
 ## Badges
-
-
-## Features
-
+${answers.badges}
 
 ## How to Contribute
-
+${answers.contribute}
 
 ## Tests
+${answers.test}
   `;
 
 
