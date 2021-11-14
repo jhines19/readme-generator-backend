@@ -16,7 +16,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [License](#license)
 
 ## Installation
-Install project via npm install, npm install inquirer, and git clone. After cloning project require packages. Developers can put the utils file and index.js file in their project in a folder for readme generator.
+Add a folder that contains an index.js and a readme-generator.js file. Install project via npm install, npm install inquirer, and git clone. After cloning project require packages. Developers can transfer contents into new project files.
 
 ## Usage
 Use this project on multiple projects to describe to others the contents of your project.
